@@ -1,0 +1,154 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #e5e5e5;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: aliceblue;
+}
+.navbar-toggler-icon {
+  background-color: rgb(195, 199, 202);
+  border-radius: 6px;
+}
+
+.navbar ul li {
+  padding: 10px 40px 10px 40px;
+}
+
+.parentcontainer {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.home {
+  background-color: black;
+  padding: 7%;
+}
+
+.home p {
+  color: darkseagreen;
+}
+.name,
+.intro {
+  font-family: "Roboto Slab", serif;
+  color: aliceblue;
+}
+
+.intro {
+  margin-top: 50px;
+}
+
+.mypic {
+  display: flex;
+  margin: auto;
+  padding-top: 46px;
+  padding-bottom: 7px;
+  width: 80%;
+}
+
+.intro p {
+  margin-top: 30px;
+}
+
+.project,
+.edu,
+.connect,
+.footer {
+  margin-top: 80px;
+}
+.project,
+.heading {
+  text-align: center;
+  background-color: rgb(25, 28, 31);
+  padding: 10px;
+  color: white;
+}
+
+.content {
+  background-image: url("images/project-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+}
+.content a {
+  text-decoration: none;
+  color: rgb(143, 103, 110);
+  font-weight: 700;
+}
+.content a:hover {
+  color: darkmagenta;
+}
+
+.content p {
+  font-weight: bold;
+  padding: 30px;
+  color: rgb(0, 0, 0);
+  width: 50%;
+  display: inline-block;
+  border: solid 7px darkseagreen;
+  margin-top: 23px;
+}
+.content h3 {
+  padding: 35px 0;
+  color: rgb(143, 103, 110);
+  font-weight: bolder;
+}
+.content h2 {
+  font-weight: 900;
+}
+
+/* .edu {
+  background-image: url("images/edu-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 70%;
+} */
+
+.edu-container {
+  margin-top: 80px;
+}
+.edu p {
+  font-weight: bold;
+  padding: 25px;
+  color: rgb(0, 0, 0);
+  width: 70%;
+  border: solid 7px darkseagreen;
+  margin-top: 23px;
+}
+.edu h3 {
+  padding: 35px 0;
+  color: black;
+  font-weight: bolder;
+}
+.connect,
+.footer {
+  text-align: center;
+}
+
+.fa-brands {
+  width: 70px;
+  margin-top: 25px;
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+  color: darkseagreen;
+  margin-top: 140px;
+}
+.footer h5 {
+  padding-top: 13px;
+}
